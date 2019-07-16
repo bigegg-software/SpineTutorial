@@ -20,9 +20,10 @@
 1. spine已经安装完毕，使用spine newapp xxx 创建一个新项目: 如下代码和截图演示
      ```bash
      spine newapp xxx
+     ```
      注：ZygoteUrl ：默认的种子url，直接Enter就好
         Your app Git repo url：输入github创建新应用的地址
-     ```
+
      ![图片](https://uploader.shimo.im/f/jojYptMT91oRaF2f.png!thumbnail)
 2. 将上图中生成的ssh pubkey 添加到github账号setting中的pubkey中
 3. Please confirm that ssh pubkey is added to the git repo：Y（确认ssh加入了github的setting SSH中了）
