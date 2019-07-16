@@ -1,17 +1,16 @@
 # spineL1安装和使用教程
 ## 步骤一 安装spine
-1. [准备好spine的库](https://github.com/bigegg-software/1905_spine.cli.git)
-2. 将spine源码clone下来：
+1. 将spine源码clone下来：
    ```bash
    git clone https://github.com/bigegg-software/1905_spine.cli.git
    ```
-3. 安装spine并链接到全局目录下，方便我们在1905_spine.cli以外的目录下使用spine：
+2. 安装spine并链接到全局目录下，方便我们在1905_spine.cli以外的目录下使用spine：
    ```bash
    cd 1905_spine.cli
    npm install && npm link
    ```
-4. 使用spine创建应用之前需要[开通阿里云RAM访问控制服务（免费的）](https://ram.console.aliyun.com/) (不开通创建会app会失败～)
-5. 在使用spine创建app之前需要执行，效果如下图：
+3. 使用spine创建应用之前需要[开通阿里云RAM访问控制服务（免费的）](https://ram.console.aliyun.com/) (不开通创建会app会失败～)
+4. 在使用spine创建app之前需要执行，效果如下图：
    ```bash
    spine config
    ```
