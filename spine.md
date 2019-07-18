@@ -15,7 +15,7 @@ npm install && npm link
 ```bash
 spine config
 ```
-   ![图片](https://uploader.shimo.im/f/9TVv5Eufe1YkyaEF.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_1.png)
 
 ## 步骤二 使用spine创建app
 1.spine已经安装完毕，使用spine newapp xxx 创建一个新项目: 如下代码和截图演示
@@ -25,7 +25,7 @@ spine newapp xxx
  注：ZygoteUrl ：默认的种子url，直接Enter就好;
      Your app Git repo url：输入github创建新应用的地址
 
-   ![图片](https://uploader.shimo.im/f/jojYptMT91oRaF2f.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_2.png)
 
 2.将上图中生成的ssh pubkey 添加到github账号setting中的pubkey中
 3.Please confirm that ssh pubkey is added to the git repo：Y（确认ssh加入了github的setting SSH中了）
@@ -36,21 +36,21 @@ Set a password for IDE：123456
 ```
 5.所有的配置完成后开始创建project，期间会要求输入github username和password，运行效果如图：
 
-   ![图片](https://uploader.shimo.im/f/WaP1teK1gLgvRWjg.png!thumbnail)
-   ![图片](https://uploader.shimo.im/f/BtOt8pLPLkwvvDA7.png!thumbnail)
-   ![图片](https://uploader.shimo.im/f/WV2P8wfmoZMlZmoi.png!thumbnail)
-   ![图片](https://uploader.shimo.im/f/cdwuzve2bFsulrvj.png!thumbnail)
-   ![图片](https://uploader.shimo.im/f/SIef3SEKn6Qg2iZz.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_3.png)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_4.png)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_5.png)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_6.png)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_7.png)
 
 6.最终提示：Your IDE will be at: https://121.40.31.104:8443，我的IDE在这个生成地址上可以直接访问并部署了
   
 ## 步骤三 使用vsCode开发app
 1.访问我的IDE地址，可能会报不安全链接，但是没关系，直接点进去，如图：输入自己设置的密码，如：123456
-   ![图片](https://uploader.shimo.im/f/jXSwRer1xgYJJS2F.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_8.png)
 2.输入密码后进入vscode主页：
-   ![图片](https://uploader.shimo.im/f/pOBOOh9Ejt0qSQMw.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_9.png)
 3.新建Terminal：
-   ![图片](https://uploader.shimo.im/f/7ldjlVZgrckJxWLc.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_10.png)
 4.在Terminal中的project目录下执行：npm install 安装依赖包，效果图如下：
 ```bash
 npm install
@@ -65,7 +65,7 @@ sh run_local.sh
 ```bash
 npm install parse-server
 ```
-   ![图片](https://uploader.shimo.im/f/VFXCTQpMhhQIHp2Y.png!thumbnail)
+   ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_11.png)
 
 ## 步骤四 本地部署
 1.服务启动后，打开本地相应端口页面：curl 'http://127.0.0.1:1337/' 测试本地服务，如图
@@ -77,7 +77,7 @@ curl 'http://127.0.0.1:1337/'
 curl 'http://127.0.0.1:1337/'
 ```
 3.如图可以看出代码内容更改并生效了：
-  ![图片](https://uploader.shimo.im/f/pi39tpBIr00w4Wql.png!thumbnail)
+  ![图片](https://spine-images.oss-cn-beijing.aliyuncs.com/spine_image_12.png)
 ## spine使用注意事项
 1.VSCode IDE需要及时保存，代码修改才能生效
 
