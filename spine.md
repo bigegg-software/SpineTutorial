@@ -1,6 +1,6 @@
 # spineL1安装和使用教程
 ## 简介
-Spine是我们对Cloud Native方法的实践经验和开源实现，基于Parse-Server作为应用后端服务的Cloud Native开源框架。希望能对不同发展阶段的创业公司都有所帮助。
+Spine是大蛋科技对Cloud Native方法的实践经验和开源实现，基于Parse-Server作为应用后端服务的Cloud Native开源框架。希望能对不同发展阶段的创业公司都有所帮助。目前我们已经完成了SpineL1的版本，[SpineL1源码](https://github.com/bigegg-software/1905_spine.cli.git)
 
 本教程是教您如何使用SpineL1搭建一个Parse server。
 
@@ -96,4 +96,4 @@ curl 'http://127.0.0.1:1337/'
 5.[删除交换机](https://vpc.console.aliyun.com/vpc/cn-hangzhou/switches)
 
 ## 目标
-SpineL1最简单且最容易上手，相信您学会使用Spine之后，即使您只有一名前端开发，也一定能快速并独立完成一个微信小程序/App/WebApp等轻量级项目的开发。希望SpineL1可以对缺乏完备开发人员的创业公司带来实际有效的帮助。如果在教程中遇到任何问题，欢迎留言～
+SpineL1最简单且最容易上手，相信您学会使用Spine之后，即使您只有一名前端开发，也一定能快速并独立完成一个微信小程序/App/WebApp等轻量级项目的开发。希望SpineL1可以对缺乏完备开发人员的创业公司带来实际有效的帮助。如果在教程中遇到任何问题，可以通过微信公账号【大蛋科技雷达】给我留言～
